@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url("/assets/coolvetica\ rg\ \(2\).otf");
+  }
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #04146c;
+    font-weight: 400;
+
+}
+h1 {
+    font-family: "coolvetica";
+    font-size: 5rem;
+    color: #0a2ff1;
+    font-weight: normal;
+    
+}
+h2 {
+    font-size: 1.25rem;
+    color: #0a2ff1;
+    font-weight: 900;
+}
+img {
+    width: 25%;
+}
+#apple {
+    width: 18%;
+}
+main {
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1em;
+    text-align: center;
+}
+.container p {
+    text-align: left;
+}
